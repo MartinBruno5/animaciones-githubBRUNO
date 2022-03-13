@@ -7,6 +7,7 @@
     <title>proyecto1</title>
     <link rel="shortcut icon" href="img/link.png">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <div class="grid-container-nosotros">
@@ -25,14 +26,14 @@
             </nav>
         </header>
     
-        <main class="padding-section">
+        <main class="padding-section wow animate__animated animate__fadeIn">
             <div>
                 <h2 class="headline-special margin-bottom-16">Un equipo que cree en la tecnología y sus posibilidades</h2>
                 <p class="body-special">Entendemos que las grandes empresas se enfrentan a desafíos específicos, y que ser innovador nunca debe poner en peligro la seguridad. Por eso trabajamos para ofrecer las mejores garantías, para hoy y para el futuro.</p>
             </div>
         </main>
     
-        <section id="nosotros" class="padding-section">
+        <section id="nosotros" class="padding-section wow animate__animated animate__fadeIn">
             <div id="section-nosotros" class="display-row">
                 <div>
                     <h6 class="subtitle-4 margin-bottom-16">Lo que más nos gusta</h6>
@@ -46,7 +47,7 @@
             </div>
         </section>
 
-        <section id="nosotros-2" class="padding-section display-row">
+        <section id="nosotros-2" class="padding-section display-row wow animate__animated animate__fadeIn">
             <div id="section-nosotros" class="display-row">
                 <img class="padding-img" src="../img/nosotros-2.png" alt="">
                 <div>
@@ -128,5 +129,7 @@
             </div>
         </footer>
     </div>
+    <script> src="js/wow.min.js"</script>
+    <script> new WOW() .init();</script> 
 </body>
 </html>

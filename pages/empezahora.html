@@ -7,6 +7,7 @@
     <title>proyecto1</title>
     <link rel="shortcut icon" href="img/link.png">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
@@ -25,14 +26,14 @@
         </nav>
     </header>
 
-    <main>
+    <main class="wow animate__animated animate__fadeIn">
         <div class="display-column display-text-center padding-section2">
             <h1 class="headline-1">Empezar nunca fue tan fácil</h1>
             <p class="body-1">Conocé nuestros planes y elegí la oferta que más se adapte a tus necesidades. ¿Ninguna te convence? Contactanos y armamos un plan a medida.</p>
         </div>
     </main>
 
-    <section class="padding-section2">
+    <section class="padding-section2 wow animate__animated animate__fadeIn">
         <div id="empeza-2" class="display-planes">
             <div class="box-servicios">
                 <h5 class="subtitle-2 margin-bottom-16">Estándar</h5>
@@ -83,7 +84,7 @@
         </div>
     </section>
 
-    <section class="display-column display-text-center padding-section2">
+    <section class="display-column display-text-center padding-section2 wow animate__animated animate__fadeIn">
         <h2 class="headline-2 margin-bottom-16">Escribinos y personalizá tu plan</h2>
         <p class="body-1 margin-bottom-32">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
         <span class="button-section-2">
@@ -159,5 +160,7 @@
             </div>
         </div>
     </footer>
+    <script> src="js/wow.min.js"</script>
+    <script> new WOW() .init();</script> 
 </body>
 </html>
